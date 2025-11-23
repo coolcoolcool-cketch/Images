@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Популярные картинки для скачивания</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .image-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            padding: 10px;
+            width: 200px;
+        }
+        .image-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .download-btn {
+            margin-top: 10px;
+            display: inline-block;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .download-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Популярные картинки</h1>
+    <div class="gallery">
+        <div class="image-card">
+            <img src="https://picsum.photos/id/237/200/200" alt="Картинка 1">
+            <a href="https://picsum.photos/id/237/200/200" download class="download-btn">Скачать</a>
+        </div>
+        <div class="image-card">
+            <img src="https://picsum.photos/id/238/200/200" alt="Картинка 2">
+            <a href="https://picsum.photos/id/238/200/200" download class="download-btn">Скачать</a>
+        </div>
+        <div class="image-card">
+            <img src="https://picsum.photos/id/239/200/200" alt="Картинка 3">
+            <a href="https://picsum.photos/id/239/200/200" download class="download-btn">Скачать</a>
+        </div>
+        <div class="image-card">
+            <img src="https://picsum.photos/id/240/200/200" alt="Картинка 4">
+            <a href="https://picsum.photos/id/240/200/200" download class="download-btn">Скачать</a>
+        </div>
+        <div class="image-card">
+            <img src="https://images.stopgame.ru/uploads/users/2024/621290/r1694x948/UL8Io153CLaSJzLfyEcT-Q/00118.g6xa-6S.jpg" alt="Картинка 5">
+            <a href="https://images.stopgame.ru/uploads/users/2024/621290/r1694x948/UL8Io153CLaSJzLfyEcT-Q/00118.g6xa-6S.jpg" download class="download-btn">Скачать</a>
+        </div>
+    </div>
+</body>
+</html>
